@@ -1,0 +1,221 @@
+
+/*pizza-Image{
+  position: absolute;
+  top:80px;
+  left:50px;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+.p1{
+  position:absolute;
+  top:350px;
+  left:25px;
+}
+.CornPizza{
+  position: absolute;
+  top:80px;
+  left:600px;
+  width:300px;
+  height:220px;
+  border-radius: 10px;
+}
+.p2{
+  position:absolute;
+  top: 350px;
+  left:600px;
+}
+.PaneerPizza{
+  position:absolute;
+  top:80px;
+  left:1150px;
+  height:240px;
+  width: auto;
+}
+.p3{
+  position:absolute;
+  top:350px;
+  left:1150px;
+}*/
+/*.b1{
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  height:50px;
+  width:100px;
+}
+.p1{
+  position:absolute;
+  top:100px;
+
+}*/
+/* App.css */
+
+/*body {
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.i1 {
+  padding: 10px;
+  width: 250px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.b1 {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.b1:hover {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #fff;
+  margin: 8px auto;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+*/
+/* Layout Container */
+.container {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 2em;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Inputs & Textarea */
+input,
+textarea {
+  width: 100%;
+  margin: 0.7em 0;
+  padding: 0.75em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0077ff;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background-color: #0077ff;
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-right: 0.5em;
+}
+
+button:hover {
+  background-color: #005fcb;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+/* Trip List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f2f2f2;
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+/* Modal */
+.modal {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1.2em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  max-width: 90%;
+  width: 400px;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 1em;
+  }
+
+  button {
+    width: 100%;
+    margin: 0.5em 0;
+  }
+
+  input, textarea {
+    font-size: 0.95em;
+  }
+}
